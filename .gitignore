@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
