@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>View Blog Post</title>
+</head>
+<body>
+  <h1><%= post.title %></h1>
+  <p><%= post.content %></p>
+  <p>Author: <%= post.author %></p>
+  <a href="/posts/<%= post._id %>/edit">Edit</a>
+  <form action="/posts/<%= post._id %>?_method=DELETE" method="POST">
+    <button type="submit">Delete</button>
+  </form>
+</body>
+</html>
